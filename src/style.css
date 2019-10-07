@@ -1,0 +1,93 @@
+html{
+    margin: 0px;
+    height: 100%;
+    width: 100%;
+}
+
+main{
+    padding: 1em;
+    display:block;
+}
+
+body {
+    background-color: white;
+
+}
+#wrapper{
+    padding: 5px 10px;
+    width: 960px;
+    margin: 0 auto;
+    text-align: left;
+    color: black;
+    background-color: white;
+    
+}
+
+.navDivs {
+	padding: 5px 10px;
+	display: inline-block;
+
+}
+.navButtons{
+	padding: 10px 10px 5px 10px;
+	margin: 20px;
+	display: inline-block;
+	color: white;
+	background-color: #3C5CE8;
+
+}
+
+#logoDiv {
+	padding: 5px;
+	display: inline-block;
+	background-color:white;
+}
+#header {
+	text-align: center;
+	background-color: white;
+}
+
+#imageContainer {
+	width: 100%;
+	background-color: lightgrey;
+	margin: 0 auto;
+	padding: 100px 0px 100px 0px;
+	text-align: center;
+
+}
+#imageContainerChild {
+	display: inline-block;
+}
+#imageDiv {
+	background-color: white;
+}
+
+#serviceDiv {
+	text-align: center;
+	background-color: #3C5CE8;
+	
+}
+
+#serviceContainer {
+	display: inline-block;	
+	padding: 1em;
+	margin: 1em;
+	color: white;
+}
+
+.serviceClass {
+	padding: 1em 2em;
+	margin: 1em 2em;
+	display: inline-block;
+	color: black;
+	background-color: white;
+	border-style: solid;
+	border-color: #3C5CE8;
+
+}
+
+#alternating_color {
+	background-color: white;
+	color: #3C5CE8;
+	border-style: none;
+}
