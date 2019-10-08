@@ -10,7 +10,8 @@ main{
 }
 
 body {
-    background-color: white;
+    background-color: #B0AEBF;
+
 
 }
 #wrapper{
@@ -29,7 +30,7 @@ body {
 
 }
 .navButtons{
-	padding: 10px 10px 10px 10px;
+	padding: 15px 15px 15px 15px;
 	margin: 20px;
 	display: inline-block;
 	color: white;
