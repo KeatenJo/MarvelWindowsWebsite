@@ -29,11 +29,13 @@ body {
 
 }
 .navButtons{
-	padding: 10px 10px 5px 10px;
+	padding: 10px 10px 10px 10px;
 	margin: 20px;
 	display: inline-block;
 	color: white;
-	background-color: #3C5CE8;
+	/* background-color: #3C5CE8; */
+	background-color: #192661;
+	border-radius: 5px;
 
 }
 
@@ -64,7 +66,8 @@ body {
 
 #serviceDiv {
 	text-align: center;
-	background-color: #3C5CE8;
+	background-color: #192661;
+	border-radius: 5px;
 	
 }
 
@@ -82,7 +85,7 @@ body {
 	color: black;
 	background-color: white;
 	border-style: solid;
-	border-color: #3C5CE8;
+	border-color: #3d4b8a;
 
 }
 
