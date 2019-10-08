@@ -16,7 +16,8 @@ You will need an archive opening software for opening the zipped files.
 
 # I also have a file for you guys to add information to
 	That file is called thingsIneed.txt.
-	There are a few things I'll need you two to come up with for your website.  This will more than likely be text and information about you and your company, that you'll want on your website.  
+	There are a few things I'll need you two to come up with for your website.  
+	This will more than likely be text and information about you and your company, that you'll want on your website.  
 	I'll update that as needed.  
 
 	You can just email me your text when you get a chance and I'll update the file.
@@ -24,9 +25,10 @@ You will need an archive opening software for opening the zipped files.
 
 # Final Thought: 
 	We are currently in prototype mode.
-	Everything being made can be changed by you guys.  If you don't like the way something looks let me know and I'll fix it.  
+	Everything being made can be changed by you guys.  
+	If you don't like the way something looks let me know and I'll fix it.  
 	Right now pages are mostly stylized and I will continue to style them.
 	If something doesn't look styled, then I'm in the process of doing it.  
 
-#Alright Thats it Thanks you Guys for this Oppertunity
-#Keaten Jones
+# Alright Thats it Thanks you Guys for this Opportunity
+# Keaten Jones
