@@ -12,8 +12,31 @@ main{
 body {
     background-color: #C8C5D9;
 
+}
+
+h1 {
+	font-family: Lato;
 
 }
+
+h2 {
+	font-family:Lato;
+}
+
+h3 {
+	font-family:Lato;
+}
+
+@font-face {
+	font-family: Lato;
+	src: url(Lato/Lato-Regular.ttf)
+}
+
+@font-face {
+	font-family: OpenSans;
+	src: url(Open_Sans/OpenSans-Regular.ttf)
+}
+
 #wrapper{
     padding: 5px 10px;
     width: 960px;
@@ -27,8 +50,9 @@ body {
 .navDivs {
 	padding: 5px 10px;
 	display: inline-block;
-
+	font-family: Lato;
 }
+
 .navButtons{
 	padding: 15px 15px 15px 15px;
 	margin: 20px;
@@ -37,6 +61,7 @@ body {
 	/* background-color: #3C5CE8; */
 	background-color: #223382;
 	border-radius: 5px;
+	font-family: Lato;
 
 }
 
@@ -69,6 +94,7 @@ body {
 	text-align: center;
 	background-color: #223382;
 	border-radius: 5px;
+    	font-family: OpenSans;
 	
 }
 
@@ -81,7 +107,7 @@ body {
 
 .serviceClass {
 	padding: 1em 2em;
-	margin: 1em 2em;
+	margin: 1em 1em;
 	display: inline-block;
 	color: black;
 	background-color: white;
@@ -95,3 +121,20 @@ body {
 	color: #3C5CE8;
 	border-style: none;
 }
+
+#informationDiv {
+	border-top-style: solid;
+	border-bottom-style: solid;
+	background-color: #D4D1E6;
+	margin: 5px;
+	padding 5px;
+    	font-family: OpenSans;
+}
+
+#aboutUsDiv {
+	border-bottom-style: solid;
+	border-color: lightgrey;
+	margin: 5px;
+	padding 1em;
+}
+
