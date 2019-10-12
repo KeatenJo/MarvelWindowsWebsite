@@ -122,6 +122,7 @@ footer {
 	color: black;
 	background-color: white;
 	border-style: solid;
+	border-radius: 5px;
 
 }
 
@@ -156,9 +157,95 @@ footer {
 }
 #contactDiv {
 	margin: 0 auto;
-	padding 1em;
+	padding: 1em;
 	color: white;
 	border-bottom-style: solid;
 	border-color: #C8C5D9; 
 
 }
+
+#requestAQuoteDiv {
+	margin: 0 auto;	
+	padding: 1em;
+	text-align: center;
+	border-top-style: solid;
+	border-bottom-style: solid;
+	border-color: #808588;
+
+
+}
+#requestAQuoteContainer {
+	display: inline-block;
+	margin: 0 auto;
+	padding: 1em;
+
+}
+.inputDivs {
+	display: block;
+	margin: 0 auto;
+	padding: 1em;
+}
+
+input[type=text]:focus {
+	border: 3px solid #555;
+}
+
+input[type=text] {
+	padding: 12px 20px;
+	margin: 8px 0;
+	box-sizing: border-box;
+	border: 3px solid #ccc;
+	-webkit-transition: 0.5s;
+	transition: 0.5s;
+	outline: none;
+}
+
+textarea {
+	width: 100%;
+	height: 175px;
+	padding: 12px 20px;
+	box-sizing: border-box;
+	border: 2px solid #ccc;
+	border-radius: 4px;
+	background-color: #f8f8f8;
+	font-size: 16px;
+	resize: none;
+}
+
+#threeContainer {
+	display: inline-block;
+	padding: 10px;
+	text-align: center;
+}
+#textAreaDiv {
+	display: inline-block;
+}
+#requestQuoteButton {
+	background-color: #0080FF;
+	width: 100%;
+	height: 50px;
+	color: white;
+	padding: 20px;
+	border: none;
+}
+
+.requestLabels {
+	color: #0080FF;
+	padding: 1em;
+	font-family: Lato;
+}
+
+#PhoneLabel {
+	color: #0080FF;
+	padding: 1em;
+	font-family: Lato;
+	padding-right: 8px;
+}
+#NameLabel {
+	color: #0080FF;
+	padding: 1em;
+	font-family: Lato;
+	padding-right: 8px;
+}
+
+
