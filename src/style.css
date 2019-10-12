@@ -27,6 +27,11 @@ h3 {
 	font-family:Lato;
 }
 
+h4 {
+	font-family: Lato;
+
+}
+
 @font-face {
 	font-family: Lato;
 	src: url(Lato/Lato-Regular.ttf)
@@ -37,6 +42,11 @@ h3 {
 	src: url(Open_Sans/OpenSans-Regular.ttf)
 }
 
+footer {
+	background-color: #525159;
+	margin: 10px;
+	padding: 10px;
+}
 #wrapper{
     padding: 5px 10px;
     width: 960px;
@@ -137,4 +147,18 @@ h3 {
 	margin: 5px;
 	padding 1em;
 }
+#footerContainer {
+	text-align: center;
+}
+#bottomNavDiv {
+	border-bottom-style: solid;
+	border-color: #C8C5D9; 
+}
+#contactDiv {
+	margin: 0 auto;
+	padding 1em;
+	color: white;
+	border-bottom-style: solid;
+	border-color: #C8C5D9; 
 
+}
