@@ -32,6 +32,10 @@ h4 {
 
 }
 
+p {
+	font-family: OpenSans;
+}
+
 @font-face {
 	font-family: Lato;
 	src: url(Lato/Lato-Regular.ttf)
@@ -72,6 +76,8 @@ footer {
 	color: white;
 	/* background-color: #3C5CE8; */
 	background-color: #0080FF;
+	border: solid;
+	border-color: #0080FF;
 	border-radius: 5px;
 	font-family: Lato;
 
@@ -258,6 +264,9 @@ textarea {
 	text-align: center;
 	border-bottom-style: solid;
 	border-color: #0080FF;
+	background-color: #808588;
+	color: white;
+	border-radius: 5px;
 
 }
 
@@ -296,5 +305,20 @@ textarea {
 }
 .headerColors {
 	color: #0080FF;
+
+}
+
+#servicesWrapper {
+	margin: 0 auto;
+	padding: 1em;
+}
+
+#servicesContainer {
+	padding: 1em;
+	margin: 0 auto;
+}
+.serviceDivs {
+	border-color: #0080FF;
+	border-bottom-style: solid;
 
 }
