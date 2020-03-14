@@ -1,0 +1,325 @@
+html{
+    margin: 0px;
+    height: 100%;
+    width: 100%;
+}
+
+main{
+    padding: 1em;
+    display:block;
+}
+
+body {
+    background-color: white;
+
+}
+
+h1 {
+	font-family: Lato;
+
+}
+
+h2 {
+	font-family:Lato;
+}
+
+h3 {
+	font-family:Lato;
+}
+
+h4 {
+	font-family: Lato;
+
+}
+
+p {
+	font-family: OpenSans;
+}
+
+@font-face {
+	font-family: Lato;
+	src: url(Lato/Lato-Regular.ttf)
+}
+
+@font-face {
+	font-family: OpenSans;
+	src: url(Open_Sans/OpenSans-Regular.ttf)
+}
+p {
+	font-family: OpenSans;
+}
+footer {
+	background-color: #808588;
+	margin: 10px;
+	padding: 10px;
+}
+#wrapper{
+    padding: 5px 10px;
+    width: 960px;
+    margin: 0 auto;
+    text-align: left;
+    color: black;
+    background-color: white;
+    
+}
+
+.navDivs {
+	padding: 5px 10px;
+	display: inline-block;
+	font-family: Lato;
+}
+
+.navButtons{
+	padding: 15px 15px 15px 15px;
+	margin: 20px;
+	display: inline-block;
+	color: white;
+	/* background-color: #3C5CE8; */
+	background-color: #0080FF;
+	border: solid;
+	border-color: #0080FF;
+	border-radius: 5px;
+	font-family: Lato;
+
+}
+
+#logoDiv {
+	padding: 5px;
+	display: inline-block;
+	background-color:white;
+}
+#header {
+	text-align: center;
+	background-color: white;
+}
+
+#imageContainer {
+	width: 100%;
+	background-color: lightgrey;
+	margin: 0 auto;
+	padding: 100px 0px 100px 0px;
+	text-align: center;
+
+}
+#imageContainerChild {
+	display: inline-block;
+}
+#imageDiv {
+	background-color: white;
+}
+
+#serviceDiv {
+	text-align: center;
+	background-color: #0080FF;
+	border-radius: 5px;
+    	font-family: OpenSans;
+	
+}
+
+#serviceContainer {
+	display: inline-block;	
+	padding: 1em;
+	margin: 1em;
+	color: white;
+}
+
+.serviceClass {
+	padding: 1em 2em;
+	margin: 1em 1em;
+	display: inline-block;
+	color: black;
+	background-color: white;
+	border-style: solid;
+	border-radius: 5px;
+
+}
+
+#alternating_color {
+	background-color: white;
+	color: #3C5CE8;
+	border-style: none;
+}
+
+#informationDiv {
+	border-top-style: solid;
+	border-bottom-style: solid;
+	background-color: #808588;
+	color: white;
+	margin: 10px;
+	padding: 10px;
+    	font-family: OpenSans;
+}
+
+#aboutUsDiv {
+	border-bottom-style: solid;
+	border-color: lightgrey;
+	margin: 5px;
+	padding 1em;
+}
+#footerContainer {
+	text-align: center;
+}
+#bottomNavDiv {
+	border-bottom-style: solid;
+	border-color: #C8C5D9; 
+}
+#contactDiv {
+	margin: 0 auto;
+	padding: 1em;
+	color: white;
+	border-bottom-style: solid;
+	border-color: #C8C5D9; 
+
+}
+
+#requestAQuoteDiv {
+	margin: 0 auto;	
+	padding: 1em;
+	text-align: center;
+	border-top-style: solid;
+	border-bottom-style: solid;
+	border-color: #808588;
+
+
+}
+#requestAQuoteContainer {
+	display: inline-block;
+	margin: 0 auto;
+	padding: 1em;
+
+}
+.inputDivs {
+	display: block;
+	margin: 0 auto;
+	padding: 1em;
+}
+
+input[type=text]:focus {
+	border: 3px solid #555;
+}
+
+input[type=text] {
+	padding: 12px 20px;
+	margin: 8px 0;
+	box-sizing: border-box;
+	border: 3px solid #ccc;
+	-webkit-transition: 0.5s;
+	transition: 0.5s;
+	outline: none;
+}
+
+textarea {
+	width: 100%;
+	height: 175px;
+	padding: 12px 20px;
+	box-sizing: border-box;
+	border: 2px solid #ccc;
+	border-radius: 4px;
+	background-color: #f8f8f8;
+	font-size: 16px;
+	resize: none;
+}
+
+#threeContainer {
+	display: inline-block;
+	padding: 10px;
+	text-align: center;
+}
+#textAreaDiv {
+	display: inline-block;
+}
+#requestQuoteButton {
+	background-color: #0080FF;
+	width: 100%;
+	height: 50px;
+	color: white;
+	padding: 20px;
+	border: none;
+}
+
+.requestLabels {
+	color: #0080FF;
+	padding: 1em;
+	font-family: Lato;
+}
+
+#PhoneLabel {
+	color: #0080FF;
+	padding: 1em;
+	font-family: Lato;
+	padding-right: 8px;
+}
+#NameLabel {
+	color: #0080FF;
+	padding: 1em;
+	font-family: Lato;
+	padding-right: 8px;
+}
+
+.topperDiv {
+	display: inline-block;	
+}
+
+.topperContainer {
+	text-align: center;
+	border-bottom-style: solid;
+	border-color: #0080FF;
+	background-color: #808588;
+	color: white;
+	border-radius: 5px;
+
+}
+
+#sideImageDiv {
+	flex: 1;
+	height: 400px;
+	width: 450px;
+	padding: 10px;
+	margin: 0 auto;
+	background-color: lightgrey;
+	text-align: center;
+
+
+}
+
+#sideImageContainer {
+	width: 100%;
+	height: 100%;
+	padding: 10px;
+	margin: 0 auto;
+	display: inline-block;
+
+}
+
+#aboutUsWrapper {
+	display: flex;
+	margin: 0 auto;
+	padding: 1em;
+}
+#aboutUsContainer {
+	width: 50%;
+	height: 100%;
+	padding: 10px;
+	margin: 0 auto;
+	flex: 1;
+	
+}
+.headerColors {
+	color: #0080FF;
+
+}
+
+#servicesWrapper {
+	margin: 0 auto;
+	padding: 1em;
+}
+
+#servicesContainer {
+	padding: 1em;
+	margin: 0 auto;
+}
+.serviceDivs {
+	border-color: #0080FF;
+	border-bottom-style: solid;
+
+}
