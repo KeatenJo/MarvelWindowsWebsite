@@ -70,8 +70,9 @@ footer {
 }
 
 .navButtons{
+	text-decoration: none;
 	padding: 15px 15px 15px 15px;
-	margin: 20px;
+	margin: 10px;
 	display: inline-block;
 	color: white;
 	/* background-color: #3C5CE8; */
@@ -195,7 +196,7 @@ footer {
 }
 
 input[type=text]:focus {
-	border: 3px solid #555;
+	border: 3px solid #0080FF;
 }
 
 input[type=text] {
@@ -206,6 +207,10 @@ input[type=text] {
 	-webkit-transition: 0.5s;
 	transition: 0.5s;
 	outline: none;
+}
+textarea:focus {
+	border: 3px solid #0080FF;
+
 }
 
 textarea {
@@ -218,6 +223,8 @@ textarea {
 	background-color: #f8f8f8;
 	font-size: 16px;
 	resize: none;
+	outline:none;
+	-webkit-transition: 0.5s;
 }
 
 #threeContainer {
@@ -318,8 +325,58 @@ textarea {
 	padding: 1em;
 	margin: 0 auto;
 }
-.serviceDivs {
-	border-color: #0080FF;
-	border-bottom-style: solid;
+
+.serviceContainer {
+	display:flex;
+	padding: 1em;
 
 }
+
+.serviceContainer.alternateColor {
+	display:flex;
+	padding: 1em;
+	background-color: #808588;
+
+}
+
+.serviceHeaderDiv {
+	padding: 2em;
+	text-align:center;
+	border: 2px solid #0080FF;
+	border-bottom: none;
+	border-top: none;
+	flex: 1;
+
+}
+
+.serviceHeaderDiv.alternate {
+	padding: 2em;
+	text-align:center;
+	border: solid 2px white;
+	border-top: none;
+	border-bottom: none;
+	border-right: none;
+	color: white;
+	flex: 1;
+
+}
+
+.serviceDivs {
+	font-family: OpenSans;
+	flex: 1;
+	border-color: #0080FF;
+	border-bottom-style: solid;
+	padding: 2em;
+	font-size: 16pt;
+}
+
+.serviceDivs.alternateColor {
+	flex: 1;
+	padding: 2em;
+	background-color: #808588;
+	color: white;
+	font-family: OpenSans;
+	border: none;
+	font-size: 16pt;
+}
+
