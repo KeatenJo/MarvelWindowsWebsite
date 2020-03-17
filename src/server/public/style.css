@@ -11,7 +11,6 @@ main{
 
 body {
     background-color: white;
-
 }
 
 h1 {
@@ -96,15 +95,12 @@ footer {
 
 #imageContainer {
 	width: 100%;
-	height: auto;
+	height: 1200px;
+	background-image: url("../images/IMG_3273.jpg");
+	background-size: auto;
 	text-align: center;
 }
 
-.images {
-	height: auto;
-	max-height: 1%;
-	max-width: 100%;
-}
 #imageContainerChild {
 	display: inline-block;
 }
