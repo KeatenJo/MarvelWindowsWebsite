@@ -1,19 +1,19 @@
 var navButtons = document.querySelectorAll('.navButtons');
 
-	
-navButtons.forEach(function(button) {
-	button.onmouseover = function () {
-		button.style.backgroundColor = "rgb(255, 255, 255)";		
-		button.style.color = "black";
+window.onscroll = function() {myFunction()};
+
+// Get the navbar
+var navbar = document.getElementById("header");
+
+// Get the offset position of the navbar
+var sticky = navbar.offsetTop;
+
+// Add the sticky class to the navbar when you reach its scroll position. Remove "sticky" when you leave the scroll position
+function myFunction() {
+	if (window.pageYOffset >= sticky) {
+		navbar.classList.add("sticky");
+	} else {
+		navbar.classList.remove("sticky");
 	}
-});
-
-navButtons.forEach(function(button) {
-	button.onmouseout = function () {
-		button.style.backgroundColor = "#0080FF";
-		button.style.color = "white";
-	}
-});
-
-
+};
 

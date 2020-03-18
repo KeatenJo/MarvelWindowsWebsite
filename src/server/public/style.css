@@ -68,6 +68,20 @@ footer {
 	font-family: Lato;
 }
 
+.content {
+	padding: 16px;
+}
+
+.sticky {
+	position: fixed;
+	top: 0;
+	width: 100%;
+}
+
+.sticky + .content {
+	padding-top: 60px;
+}
+
 .navButtons{
 	text-decoration: none;
 	padding: 15px 15px 15px 15px;
@@ -81,6 +95,17 @@ footer {
 	border-radius: 5px;
 	font-family: Lato;
 
+}
+
+.navButtons:hover {
+	background-color: rgb(255, 255, 255);		
+	color: black;
+
+}
+.navButtons.active{
+
+	background-color: rgb(255, 255, 255);		
+	color: black;
 }
 
 #logoDiv {
