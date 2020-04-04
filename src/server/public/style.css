@@ -478,3 +478,32 @@ textarea {
 	font-size: 16pt;
 }
 
+#QandAWrapper {
+	padding: 2em;
+	position: relative;
+}
+
+#QandAContainer {
+	text-align: center;
+	color: #0080FF;
+}
+.QandAContainer {
+	padding: 1em;
+}
+
+.QuestionContainer {
+}
+
+.fontAwesomeQuestionMark {
+	display: inline-block;
+	padding: 1em;
+}
+
+.QuestionContent {
+	display: inline-block;
+	padding: 1em;
+}
+
+.AnswerContainer {
+
+}
