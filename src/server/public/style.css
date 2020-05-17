@@ -544,3 +544,58 @@ textarea {
 	width: 80%;
 
 }
+
+#slideShowSection {
+	padding: 2em;
+	margin: 2em;
+	position: relative;
+}
+
+#slideShowContainer {
+	color: #0080FF;
+	text-align: center;
+}
+.quote {
+	position: relative;
+	display: inline;
+	font-family: OpenSans;
+}
+
+.QuoteSig {
+	padding-top: 3em;
+	position: relative;
+	text-align: right;
+	width: 100%;
+	padding-right: 2em;
+	font-family: Lato;
+}
+
+.fas.fa-quote-left{
+	float: left;
+	font-size: 1.4em;
+}
+.fas.fa-quote-right{
+	font-size: 1.4em;
+	float: right;
+}
+.quoteContent {
+	padding-top: 2em;
+	padding-left: 2em;
+	padding-right: 2em;
+}
+
+#contentSection{
+	padding: 2em;
+	border: solid 0.2em #0080FF;
+	border-top: 0;
+	border-bottom: 0;
+	border-right: 0;
+	font-family: Lato;
+}
+
+#reviewHeaderSection {
+	text-align: center;
+	color: #0080FF;
+	font-family: Lato;
+	border-bottom: solid 0.2em #0080FF;
+}
