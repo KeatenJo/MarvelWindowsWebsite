@@ -13,6 +13,7 @@ main{
 }
 
 body {
+	background-color: #73242A;
 	position: relative;
 	padding:0;
 	background-color: white;
@@ -23,6 +24,12 @@ body {
 h1 {
 	font-family: Lato;
 
+}
+
+.abs-center-x {
+	position: absolute;
+	left: 50%;
+	transform: translateX(-50%);
 }
 
 h2 {
@@ -53,6 +60,10 @@ p {
 }
 p {
 	font-family: OpenSans;
+}
+
+.navbar-toggler:not(:disabled):not(.disabled) {
+	background-color: #0080FF;
 }
 .footer {
 	background-color: #808588;
@@ -173,16 +184,13 @@ p {
 
 
 #serviceContainer {
-	display: flex;
 	padding: 1em;
 	color: white;
 }
 
 .serviceClass {
-	flex:1;
-	padding: 1em 2em;
-	margin: 1em 1em;
-	display: inline-block;
+	padding: 1rem 2rem;
+	margin: 1rem 1rem;
 	color: black;
 	background-color: white;
 	border-radius: 5px;
@@ -228,12 +236,10 @@ ul {
 	margin: 10px;
 	padding: 10px;
     	font-family: OpenSans;
-	display: flex;
 	position: relative;
 }
 
 .informationContainer {
-	flex: 1;
 	padding: 1em;
 	background-color: #808588;
 	color: white;
@@ -305,6 +311,21 @@ input[type=text] {
 	transition: 0.5s;
 	outline: none;
 }
+
+input[type=email]:focus {
+	border: 3px solid #0080FF;
+}
+
+input[type=email] {
+	padding: 12px 20px;
+	margin: 8px 0;
+	box-sizing: border-box;
+	border: 3px solid #ccc;
+	-webkit-transition: 0.5s;
+	transition: 0.5s;
+	outline: none;
+}
+
 textarea:focus {
 	border: 3px solid #0080FF;
 
@@ -371,11 +392,10 @@ textarea {
 	background-color: #808588;
 	color: white;
 	border-radius: 5px;
-	position: relative;
+	padding-top: 5rem;
 }
 
 #sideImageDiv {
-	flex: 1;
 	height: 400px;
 	width: 450px;
 	padding: 10px;
@@ -396,17 +416,15 @@ textarea {
 }
 
 #aboutUsWrapper {
-	display: flex;
 	margin: 0 auto;
 	padding: 1em;
 	position: relative;
 }
 #aboutUsContainer {
-	width: 50%;
+	width: 100%;
 	height: 100%;
 	padding: 10px;
 	margin: 0 auto;
-	flex: 1;
 	
 }
 .headerColors {
@@ -425,13 +443,11 @@ textarea {
 }
 
 .serviceContainer {
-	display:flex;
 	padding: 1em;
 
 }
 
 .serviceContainer.alternateColor {
-	display:flex;
 	padding: 1em;
 	background-color: #808588;
 
@@ -461,7 +477,6 @@ textarea {
 
 .serviceDivs {
 	font-family: OpenSans;
-	flex: 1;
 	border-color: #0080FF;
 	border-bottom-style: solid;
 	padding: 2em;
@@ -469,7 +484,6 @@ textarea {
 }
 
 .serviceDivs.alternateColor {
-	flex: 1;
 	padding: 2em;
 	background-color: #808588;
 	color: white;
@@ -554,6 +568,9 @@ textarea {
 #slideShowContainer {
 	color: #0080FF;
 	text-align: center;
+	width: 100%;
+	height: 6em;
+
 }
 .quote {
 	position: relative;
@@ -598,4 +615,9 @@ textarea {
 	color: #0080FF;
 	font-family: Lato;
 	border-bottom: solid 0.2em #0080FF;
+}
+
+.reviewSlides {
+	transition: opacity .5s ease-in;
+	position: absolute;
 }
