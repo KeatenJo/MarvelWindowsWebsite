@@ -1,0 +1,86 @@
+html, body {
+	width: 100%;
+	height: 100%;
+}
+
+#wrapper {
+	width: 90%;
+	height: 100%;
+	margin: 0 auto;
+}
+
+#headerContainer {
+	width: 100%;
+	height: 30em;
+	background-color: lightgrey;
+	position: relative;
+	text-align: center;
+}
+
+#navBarContainer {
+	width: 100%;
+	height: 8em;
+	background-color: grey;
+	text-align: center;
+	position: relative;
+}
+
+#banner-container {
+	width: 100%;
+	height: 6em;
+	background-color: lightyellow;
+	text-align: center;
+	position: relative;
+
+}
+
+#about-us-container {
+	width: 100%;
+	height: 8em;
+	position: relative;
+	background-color: lightgrey;
+}
+
+#our-locations-container {
+	width: 100%;
+	height: 12em;
+	position: relative;
+	background-color: grey;	
+}
+
+#contact-us-container {
+	width: 100%;
+	height: 12em;
+	position: relative;
+	background-color: lightgrey;	
+	
+}
+
+#our-menu-container {
+	width: 100%;
+	height: 100em;
+	position: relative;
+	background-color: lightblue;	
+	
+}
+.footer {
+	width: 100%;
+	height: 20em;
+	position: relative;
+	background-color: red;	
+}
+
+#navBarContainer {
+
+}
+
+#navBar {
+	display: flex;
+}
+
+.nav-buttons {
+	color: white;
+	flex: 3;
+	padding-left: 2em;
+	padding-right: 2em;
+}

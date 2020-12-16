@@ -621,3 +621,7 @@ textarea {
 	transition: opacity .5s ease-in;
 	position: absolute;
 }
+
+#faq_header {
+	color: #0080FF;	
+}
