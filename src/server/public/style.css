@@ -296,6 +296,10 @@ ul {
 	display: block;
 	margin: 0 auto;
 	padding: 1em;
+	border-bottom: solid;
+	border-left: solid;
+	border-color: #808588;
+
 }
 
 input[type=text]:focus {
